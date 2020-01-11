@@ -1,0 +1,66 @@
+{
+  "name": "my-storybook",
+  "version": "0.1.0",
+  "author": "Michal Weisman @zurda",
+  "license": "MIT",
+  "private": true,
+  "homepage": "http://zurda.github.io/my-zurda",
+  "dependencies": {
+    "@types/jest": "^24.0.25",
+    "cross-env": "^6.0.3",
+    "prettier": "^1.19.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-scripts": "3.3.0",
+    "react-test-renderer": "^16.12.0"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public",
+    "test": "react-scripts test",
+    "test:ci": "cross-env CI=true react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
+    "lint": "tslint --project .",
+    "format": "prettier --write src/**/*.{js,jsx,ts,tsx}",
+    "format:test": "prettier --check src/**/*.{js,jsx,ts,tsx}"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@emotion/core": "^10.0.27",
+    "@emotion/styled": "^10.0.27",
+    "@storybook/addon-actions": "^5.3.0",
+    "@storybook/addon-links": "^5.3.0",
+    "@storybook/addons": "^5.3.0",
+    "@storybook/preset-create-react-app": "^1.5.0",
+    "@storybook/react": "^5.3.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@types/reach__router": "^1.2.6",
+    "@types/react": "^16.9.17",
+    "@types/react-dom": "^16.9.4",
+    "emotion": "^10.0.27",
+    "gh-pages": "^2.1.1",
+    "react-emotion": "^10.0.0",
+    "tslint": "^5.20.1",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-react": "^4.1.0",
+    "typescript": "^3.7.4"
+  }
+}
