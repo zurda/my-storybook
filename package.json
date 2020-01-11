@@ -16,12 +16,12 @@
   },
   "scripts": {
     "storybook": "start-storybook -p 9009 -s public",
-    "build-storybook": "build-storybook -s public",
+    "build": "build-storybook -s public",
     "test": "react-scripts test",
     "test:ci": "cross-env CI=true react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d storybook-static",
     "lint": "tslint --project .",
     "format": "prettier --write src/**/*.{js,jsx,ts,tsx}",
     "format:test": "prettier --check src/**/*.{js,jsx,ts,tsx}"
