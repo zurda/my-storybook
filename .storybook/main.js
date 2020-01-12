@@ -5,6 +5,7 @@ module.exports = {
   addons: [
     '@storybook/preset-create-react-app',
     '@storybook/addon-actions',
+    '@storybook/addon-a11y/register',
     {
       name: '@storybook/addon-storysource',
       options: {
