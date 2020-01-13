@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component Matches the snapshot 1`] = `
+<div
+  className="css-nma54g"
+>
+  <span
+    className="css-h5d4jr"
+  >
+    T
+  </span>
+  <span
+    className="css-h5d4jr"
+  >
+    ?
+  </span>
+  <span
+    className="css-h5d4jr"
+  >
+    ?
+  </span>
+  <span
+    className="css-1ep591g"
+  >
+     
+  </span>
+  <span
+    className="css-h5d4jr"
+  >
+    S
+  </span>
+  <span
+    className="css-h5d4jr"
+  >
+    t
+  </span>
+  <span
+    className="css-h5d4jr"
+  >
+    ?
+  </span>
+  <span
+    className="css-h5d4jr"
+  >
+    ?
+  </span>
+  <span
+    className="css-h5d4jr"
+  >
+    ?
+  </span>
+</div>
+`;

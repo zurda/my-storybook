@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RoundButton component Matches the snapshot 1`] = `
+<button
+  className="css-a35l7o"
+>
+  Button text
+</button>
+`;

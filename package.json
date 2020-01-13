@@ -6,6 +6,7 @@
   "private": true,
   "homepage": "http://zurda.github.io/my-storybook",
   "dependencies": {
+    "@storybook/addon-docs": "^5.3.2",
     "@types/jest": "^24.0.25",
     "cross-env": "^6.0.3",
     "prettier": "^1.19.1",
