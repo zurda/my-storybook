@@ -12,7 +12,7 @@ export const Button = styled.button`
   -webkit-transition-duration: 0.2s; /* Safari */
   transition-duration: 0.2s;
   border: none;
-  width: 100%;
+  width: auto;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
   border-radius: 2px;
   &:hover {
@@ -21,6 +21,7 @@ export const Button = styled.button`
   }
   @media (min-width: 420px) {
     font-size: 18px;
+    width: 100%;
   }
 `
 

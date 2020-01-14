@@ -1,6 +1,6 @@
 import React from 'react'
 import { create } from 'react-test-renderer'
-import { Button, RoundButton } from '../components/GameControllers'
+import { Button } from '../components/GameControllers'
 
 describe('Button component', () => {
   test('Matches the snapshot', () => {

@@ -2,7 +2,7 @@
 
 exports[`Button component Matches the snapshot 1`] = `
 <button
-  className="css-1xgvbep"
+  className="css-p6pb17"
 >
   Button text
 </button>
