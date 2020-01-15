@@ -7,6 +7,7 @@ const Container = styled.div`
   flex-direction: row;
   justify-content: center;
   padding: 16px 32px;
+  font-family: 'Roboto';
 `
 
 interface ILetterContainer {

@@ -51,12 +51,17 @@ export const FlexResponsive = styled.div`
 `
 
 const Text = styled.span`
-  width: 200px;
+  width: 220px;
+  font-family: 'Roboto';
+  @media (min-width: 420px) {
+    font-size: 18px;
+  }
 `
 
 const DropdownContainer = styled.div`
   display: flex;
   flex-direction: row;
+  align-items: center;
   padding: 0;
   margin: 0;
   width: 100%;

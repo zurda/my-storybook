@@ -7,6 +7,7 @@ const LettersContainer = styled.div`
   flex-direction: row;
   flex-wrap: wrap;
   margin: 16px auto;
+  font-family: 'Roboto';
 `
 
 export const Char = styled.button`
