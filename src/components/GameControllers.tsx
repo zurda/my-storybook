@@ -21,14 +21,14 @@ export const Button = styled.button`
   }
   @media (min-width: 420px) {
     font-size: 18px;
-    width: 100%;
+    width: auto;
   }
 `
 
 export const RoundButton = styled(Button)`
   border-radius: 50%;
-  width: 80px;
-  height: 80px;
+  width: 90px;
+  height: 90px;
   align-self: flex-end;
   margin: 0 auto;
 `

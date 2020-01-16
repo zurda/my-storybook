@@ -2,7 +2,7 @@
 
 exports[`RoundButton component Matches the snapshot 1`] = `
 <button
-  className="css-1pyn75n"
+  className="css-1mbz7zh"
 >
   Button text
 </button>
