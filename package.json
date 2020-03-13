@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "author": "Michal Weisman @zurda",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "homepage": "http://zurda.github.io/my-storybook",
   "dependencies": {
     "@storybook/addon-docs": "^5.3.2",
